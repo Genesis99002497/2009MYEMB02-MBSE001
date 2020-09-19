@@ -2,7 +2,7 @@
 void add(FILE * fp)
 {
 printHead();
-printf("\n\t\t\t\Add Employee");
+printf("\n\t\t\tAdd Employee");
 char another='y';
 Employee e;
 fseek(fp,0,SEEK_END);
@@ -54,22 +54,11 @@ character as input
  another=getchar();
 }
 }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+     
         FILE * del(FILE * fp)
 {
 printHead();
-printf("\n\t\t\t\Delete Employee");
+printf("\n\t\t\tDelete Employee");
 Employee e;
 int flag=0,tempid,siz=sizeof(e);
 FILE *ft;
@@ -117,7 +106,7 @@ return fp;
  void modify(FILE * fp)
 {
 printHead();
-printf("\n\t\t\t\Modify Employee");
+printf("\n\t\t\tModify Employee");
 Employee e;
 int i,flag=0,tempid,siz=sizeof(e);
 float sal;
@@ -186,7 +175,7 @@ system("pause");
        
        void searchRecord(FILE *fp)
 {printHead();
-printf("\n\t\t\t\Search Employee");
+printf("\n\t\t\tSearch Employee");
 int tempid,flag,siz,i;
 Employee e;
 char another='y';
@@ -230,7 +219,7 @@ another=getchar();
         
         void displayList(FILE * fp)
 { printHead();
-printf("\n\t\t\t\List of Employees");
+printf("\n\t\t\tList of Employees");
  Employee e;
  int i,siz=sizeof(e);
  rewind(fp);
