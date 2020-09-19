@@ -1,4 +1,4 @@
-PROJECT_NAME = Employee Record management
+PROJECT_NAME = Genesis_99002497_Emp
 
 # Output directory
 BUILD = build
