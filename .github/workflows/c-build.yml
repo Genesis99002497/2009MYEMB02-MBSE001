@@ -16,3 +16,7 @@ jobs:
       
     - name: make all
       run:  make all 
+      
+    - name: install math library
+
+      run:  sudo apt-get install -y libmath-libm-perl
