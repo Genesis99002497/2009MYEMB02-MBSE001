@@ -1,9 +1,20 @@
-TEST_SRC = main.c\
+PROJECT_NAME = Employee Record management
+
+# Output directory
+BUILD = build
+
+# All source code files
+SRC = imple/main.c\
+imple/source/menu.c\
+
+
+
 
 # All include folders with header files
 INC	= -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
 
 
 # Default target built
@@ -18,6 +29,9 @@ all: $(SRC) $(BUILD)
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
+
+
+
 
 # Remove all the built files, invoke by `make clean`
 clean:
