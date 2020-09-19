@@ -1,4 +1,4 @@
-TEST_SRC = imple/src/main.c\
+TEST_SRC = main.c\
 
 # All include folders with header files
 INC	= -Iinc
