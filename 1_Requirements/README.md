@@ -1,7 +1,12 @@
-# Requirements
+Requirement :
 
-* Capture all the requirements wrt system, module, interface, integration, testing, Functional and Non-functional
-* Captures Basic Planning of the project through - Sample Gantt Chart attached
+  ID	            Description
+  01	Employee should be present.
+  02	Employee number should be given to employee.
 
-* Tools: MS Excel, MS word or Similar
+  03	Contact information of the employee.
+  04	Gender of the employee.
+  05	Home town / Location of the employee
+
+  06	Main branch of the employee.
 
