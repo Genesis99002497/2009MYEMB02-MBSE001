@@ -14,8 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: make all
-      run:  make all 
+
       
     - name: install math library
 
